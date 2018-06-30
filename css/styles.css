@@ -8,6 +8,7 @@ h1 {
     font-size: 90px;
     margin: 0.2em;
     color: #984B43;
+    margin: 0px auto 0px auto;
 }
 
 h2 {
@@ -25,10 +26,12 @@ h2:first-of-type {
     font-size: 40px;
     font-weight: : bold;
     text-decoration: underline;
+    margin: 6px auto 2px auto;
 }
 
 #design {
     text-decoration: underline;
+    margin: 2px auto 2px auto;
 }
 
 #picker {
@@ -36,7 +39,8 @@ h2:first-of-type {
     padding:10px;
     height: 100px;
     width: 500px;
-    background-color: powderblue;
+    background-color: #A7b3A5;
+    border-radius: 25px;
 }
 
 table,
@@ -51,11 +55,11 @@ table {
 }
 
 tr {
-    height: 30px;
+    height: 20px;
 }
 
 td {
-    width: 30px;
+    width: 20px;
 }
 
 input[type=number] {
