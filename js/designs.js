@@ -25,3 +25,8 @@ $("form#sizePicker").on("submit", function(ev) {
     ev.preventDefault();
     makeGrid();
 });
+
+
+$("#pixelCanvas").on("click", "td", function() {
+    $(this).css("background-color", $("#colorPicker").val());
+});
