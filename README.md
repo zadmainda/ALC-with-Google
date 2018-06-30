@@ -8,4 +8,7 @@ A single-page web app that allows users to draw pixel art on a customizable canv
         3. Click a cell in the grid to fill that cell with the chosen color.
 
 ### Final project Link
+[Link to project](https://zadok-kinara.github.io/ALC-with-Google/)
+
+![alt text](images/screenshot.png "Pixel Art Maker")
 
