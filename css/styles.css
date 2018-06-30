@@ -1,11 +1,13 @@
 body {
     text-align: center;
+    background-color: #d9d9d9;
 }
 
 h1 {
-    font-family: Monoton;
-    font-size: 70px;
+    font-family: VT323;
+    font-size: 90px;
     margin: 0.2em;
+    color: #984B43;
 }
 
 h2 {
@@ -16,10 +18,31 @@ h2:first-of-type {
     margin-top: 0.5em;
 }
 
+#pick {
+    color: #88d317;
+    margin: 1em 0 0.25em;
+    font-family: Tangerine;
+    font-size: 40px;
+    font-weight: : bold;
+    text-decoration: underline;
+}
+
+#design {
+    text-decoration: underline;
+}
+
+#picker {
+    margin: 0px auto 0px auto;
+    padding:10px;
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+}
+
 table,
 tr,
 td {
-    border: 1px solid black;
+    border: 2px dashed #545454;
 }
 
 table {
@@ -28,11 +51,11 @@ table {
 }
 
 tr {
-    height: 20px;
+    height: 30px;
 }
 
 td {
-    width: 20px;
+    width: 30px;
 }
 
 input[type=number] {
